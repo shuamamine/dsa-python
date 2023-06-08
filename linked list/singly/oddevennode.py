@@ -1,5 +1,4 @@
-# Write a program to print the odd number and even
-# number nodes separately from a single linked list
+# Write a program to print the odd number and even number of nodes separately from a singly linked list
 
 class Node:
     def __init__(self, data):
@@ -68,8 +67,9 @@ print("Even Nodes: ")
 even.display()
 
 
-# OUTPUT
-# Creating Linked List...
+# OUTPUT:
+
+# Creating Linked List!
 # Enter - 1 to end
 # Enter the data: 10
 # Enter the data: 20
