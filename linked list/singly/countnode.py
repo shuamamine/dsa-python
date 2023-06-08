@@ -1,5 +1,4 @@
-# Write a function to count the number
-# of node present in a linked list.
+# Write a function to count the number of node(s) present in a singly linked list.
 
 class Node:
     def __init__(self, data):
