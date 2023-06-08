@@ -1,3 +1,6 @@
+# Write a function to count the number
+# of node present in a linked list.
+
 class Node:
     def __init__(self, data):
         self.data = data
@@ -9,7 +12,7 @@ class LinkedList:
         self.head = None
 
     def createList(self):
-        print("Creating Linked List...")
+        print("Creating Linked List!")
         print("Enter -1 to end")
         num = int(input("Enter the data: "))
         while(num != -1):
@@ -36,3 +39,14 @@ myList = LinkedList()
 myList.createList()
 n = myList.size()
 print("Number of Nodes is: " + str(n))
+
+# OUTPUT
+# Creating Linked List!
+# Enter -1 to end
+# Enter the data: 6
+# Enter the data: 3
+# Enter the data: 8
+# Enter the data: 2
+# Enter the data: -1
+# Number of Nodes is: 4
+
