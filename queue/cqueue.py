@@ -1,7 +1,8 @@
+# Write a program for circular queue in python
+
 class MyCircQueue():
     def __init__(self, k):
-        self.k = k  # size of the circular queue
-        # array to store the elements of the circular queue
+        self.k = k  
         self.queue = [0] * k
         self.front = self.rear = -1
 
