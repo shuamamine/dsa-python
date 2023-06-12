@@ -1,3 +1,4 @@
+# write a program for binary search
 
 def binarySearch(arr, key):
     low = 0
