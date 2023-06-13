@@ -12,4 +12,7 @@ index = linearSearch(arr, k)
 if index == -1:
     print("Item Not Found")
 else:
-     print(str(k), "found at index:", str(index))
+     print(str(k), "found at index :", str(index))
+        
+# Output :
+# 5 found at index : 3
