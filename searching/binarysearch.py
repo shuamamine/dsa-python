@@ -21,4 +21,7 @@ idx = binarySearch(arr, key)
 if idx == -1:
     print("Item Not Found")
 else:
-    print(str(key), "found at index:", str(idx))
+    print(str(key), "is found at index :", str(idx))
+
+# OUTPUT
+# 4 is found at index : 3
